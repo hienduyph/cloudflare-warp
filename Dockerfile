@@ -1,6 +1,6 @@
-FROM ubuntu:22.04
+FROM docker.io/ubuntu:22.04
 
-ARG GOST_VERSION
+ARG GOST_VERSION=2.11.5
 
 # install dependencies
 RUN apt-get update && \

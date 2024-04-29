@@ -4,9 +4,9 @@
 set -e
 
 # create a tun device
-mkdir -p /dev/net
-mknod /dev/net/tun c 10 200
-chmod 600 /dev/net/tun
+# mkdir -p /dev/net
+# mknod /dev/net/tun c 10 200
+# chmod 600 /dev/net/tun
 
 # start dbus
 mkdir -p /run/dbus
